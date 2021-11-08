@@ -1,0 +1,40 @@
+body {
+  font: 100% Helvetica, sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  color: #900;
+  display: inline-block;
+}
+nav ul li a {
+  font-weight: 800;
+}
+
+.alert {
+  margin: 20px;
+  padding: 30px;
+}
+.alert.alert-primary {
+  background-color: #6669a4;
+}
+.alert.alert-secondary {
+  background-color: #DDD;
+}
+
+.card {
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid #CCC;
+}
+.card.card-primary {
+  background-color: #6669a4;
+}
+.card.card-secondary {
+  background-color: #DDD;
+}
+
+/*# sourceMappingURL=styles.css.map */
