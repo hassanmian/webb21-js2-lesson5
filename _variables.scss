@@ -3,3 +3,8 @@ $textColor: #900;
 
 $primaryColor: #6669a4;
 $secondaryColor: #DDD;
+
+
+@mixin backgroundColor($color: $primaryColor) {
+    background-color: $color;
+}

@@ -5,9 +5,7 @@
     padding: 30px;
 }
 
-@mixin backgroundColor($color: variables.$primaryColor) {
-    background-color: $color;
-}
+
 
 body {
     font: 100% variables.$companyFont;
@@ -31,11 +29,11 @@ nav {
     @include paddingMargin();
 
     &.alert-primary {
-        @include backgroundColor();
+        @include variables.backgroundColor();
     }
 
     &.alert-secondary {
-        @include backgroundColor(variables.$secondaryColor);
+        @include variables.backgroundColor(variables.$secondaryColor);
     }
 }
 
@@ -44,9 +42,9 @@ nav {
     border: 1px solid #CCC;
 
     &.card-primary {
-        @include backgroundColor();
+        @include variables.backgroundColor();
     }
     &.card-secondary {
-        @include backgroundColor(variables.$secondaryColor);
+        @include variables.backgroundColor(variables.$secondaryColor);
     }
 }
